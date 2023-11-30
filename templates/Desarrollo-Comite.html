@@ -8,6 +8,8 @@
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="Static/Desarrollo-Comite.css">
+    <script src="./Desarrollo-Comite.js"></script>
+
 </head>
 <body>
     
@@ -30,12 +32,12 @@
 
         <section id="contenido">
 
-            <figure><img id="Icono-perfil"  src="Static/Imagenes/yuji-icon.png.jpg" alt=""></figure>
+            <figure><img id="icono-perfil"  src="Static/Imagenes/yuji-icon.png.jpg" alt=""></figure>
             <div class="menu-desplegable"><i class="lni lni-menu"></i></div>
 
             <form id="formulario_acta" action="" method="post">
 
-                Nombre del comité o de la reunión <input type="text" name="" id=""><br>
+                Nombre del comité o de la reunión <input type="text" name="datos" id="datos"><br>
                 Fecha <input type="text" name="" id=""><br>
                 Lugar y/o enlace <input type="text"><br>
                 Hora inicio de la reunion <input type="text" name="" id=""><br>
@@ -52,6 +54,8 @@
                 ASISTENTES: (Incorporar registro de asistencia)
 
                 Nota: Puede incluirse imagen o captura de pantalla de los asistentes, si se trata de una reunión virtual o, de los asistentes que participan a través de una plataforma virtual.
+
+                <button type="submit">Guardar</button>
  
 
 
@@ -62,9 +66,10 @@
 
         <section id="barra_anclada_inferior">
 
-            <button class="boton"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M318.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-120 120c-12.5 12.5-12.5 32.8 0 45.3l16 16c12.5 12.5 32.8 12.5 45.3 0l4-4L325.4 293.4l-4 4c-12.5 12.5-12.5 32.8 0 45.3l16 16c12.5 12.5 32.8 12.5 45.3 0l120-120c12.5-12.5 12.5-32.8 0-45.3l-16-16c-12.5-12.5-32.8-12.5-45.3 0l-4 4L330.6 74.6l4-4c12.5-12.5 12.5-32.8 0-45.3l-16-16zm-152 288c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l48 48c12.5 12.5 32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-1.4-1.4L272 285.3 226.7 240 168 298.7l-1.4-1.4z"/></svg>
+            <button class="boton">
+                <i class="lni lni-docker"></i>
                 <br> Comites
-             </button>
+            </button>            
 
         </section>
 

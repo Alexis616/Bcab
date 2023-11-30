@@ -29,13 +29,13 @@ figure .logo-sena {
     width: 60px;
 }
 
-figure #Icono-perfil {
+figure .icono-perfil {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     position: absolute;
     left: 5px;
-    top: 15px;
+    top: 10px;
 }
 /*==================OBJETOS==================*/
 #barra_verde_superior {
@@ -52,14 +52,14 @@ figure #Icono-perfil {
 
     /* para modificar la posicion del logo del sena*/
     #barra_verde_superior .logo-sena {
-        position: absolute;
+        position: fixed;
         left: -7px;
         top: 2px;
     }
 
     /* para modificar la posicion de la palabra "Inicio" */
     #barra_verde_superior .interfaz {
-        position: absolute;
+        position: fixed;
         margin: 0;
         padding: 0;
         left: 50px;
@@ -68,7 +68,7 @@ figure #Icono-perfil {
     }
 
     #barra_verde_superior .logo-equipo {
-        position: absolute;
+        position: fixed;
         right: 10px;
         font-size: 1.0em;
         color: white;
@@ -84,17 +84,54 @@ figure #Icono-perfil {
     
     #contenido .menu-desplegable {
         font-size: 1.5em;
-        position: absolute;
+        position: fixed;
         right: 10px;
-        top: 25px;
+        top: 65px;
     }
 
-#formulario_acta {
-    font-size: 1.3em;
-    padding: 0 0px 0 15px;
-    position: absolute;
-    top: 80px;
-}
+    #contenido .acta-comite {
+        border-radius: 20px;
+        font-size: 1.3em;
+        position: absolute;
+        top: 90px;
+        left: 20px;
+        right: 20px;
+        margin: 0;
+    }
+
+    #contenido .imprimir {
+        background-color: rgb(16, 16, 132);
+        border-radius: 100%;
+        color: white;
+        display: grid;
+        place-items: center;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        left: 20px;
+    }
+
+        #contenido .imprimir i {
+            font-size: 2em;
+        }
+
+    #contenido .editar {
+        background-color: rgb(16, 16, 132);
+        border-radius: 100%;
+        color: white;
+        display: grid;
+        place-items: center;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        right: 20px;
+    }
+
+        #contenido .editar i {
+            font-size: 2em;
+        }
 /*==================CLASES==================*/
 
 

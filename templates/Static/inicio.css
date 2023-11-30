@@ -33,13 +33,13 @@ figure .logo-sena {
     width: 60px;
 }
 
-figure .Icono-perfil {
+figure .icono-perfil {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     position: absolute;
     left: 5px;
-    top: 55px;
+    top: 10px;
 }
 /*==================OBJETOS==================*/
 #barra_verde_superior {
