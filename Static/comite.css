@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+figure img{
+    margin: 0;
+    width: 100%;
+}
+main#fondo {
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+}
+
+/*============CONTROL DE IMAGENES============*/
+/* para modificar el tamaño del logo del sena*/
+figure .logo-sena {
+    height: 35px;
+    width: 60px;
+}
+
+figure .Icono-perfil {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 55px;
+}
+/*==================OBJETOS==================*/
+#barra_verde_superior {
+    align-items: center;
+    background-color: #39A900;
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+    /* para modificar la posicion del logo del sena*/
+    #barra_verde_superior .logo-sena {
+        position: fixed;
+        left: -7px;
+        top: 2px;
+    }
+
+    /* para modificar la posicion de la palabra "Inicio" */
+    #barra_verde_superior .interfaz {
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        left: 50px;
+        font-size: 1.7em;
+        color: white;
+    }
+
+    #barra_verde_superior .logo-equipo {
+        position: fixed;
+        right: 10px;
+        font-size: 1.0em;
+        color: white;
+    }
+
+#contenido {
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+    
+    #contenido .menu-desplegable {
+        font-size: 1.5em;
+        position: fixed;
+        right: 10px;
+        top: 65px;
+    }
+
+    #contenido .acta-comite {
+        border-radius: 20px;
+        font-size: 1.3em;
+        position: absolute;
+        top: 90px;
+        left: 20px;
+        right: 20px;
+        margin: 0;
+    }
+
+    #contenido .imprimir {
+        background-color: rgb(16, 16, 132);
+        border-radius: 100%;
+        color: white;
+        display: grid;
+        place-items: center;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        left: 20px;
+    }
+
+        #contenido .imprimir i {
+            font-size: 2em;
+        }
+
+    #contenido .editar {
+        background-color: rgb(16, 16, 132);
+        border-radius: 100%;
+        color: white;
+        display: grid;
+        place-items: center;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        right: 20px;
+    }
+
+        #contenido .editar i {
+            font-size: 2em;
+        }
+/*==================CLASES==================*/
+
+
+
+/*COSAS QUE NO SE QUE HACEN*/
+/* Estilos de la barra de botones */
+#barra_anclada_inferior {
+    position: absolute;
+    background-color: #39A900;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    height: 45px;
+}
+
+/* Estilos de los botones */
+.boton {
+    background-color:transparent;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos de los botones al pasar el mouse */
+.boton:hover {
+    transition: 0.9s;
+    background-color: #eeeeee;
+}
+.icono{
+    color: #ffffff;
+}
